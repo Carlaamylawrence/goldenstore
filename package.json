@@ -1,0 +1,28 @@
+{
+  "name": "goldenbackend",
+  "version": "1.0.0",
+  "description": "Node.js Rest API with Express, mysql and axios",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "api"
+  ],
+  "author": "carla",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
