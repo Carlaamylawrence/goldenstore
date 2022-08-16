@@ -25,14 +25,14 @@ app.listen(app.get("port"), () => {
     console.log("Press Ctrl+C to exit server");
 }); 
 const corsOptions = {
-    origin: 'http://localhost:6968',
+    origin: 'http://localhost:8083',
     optionsSuccessStatus: 200, // For legacy browser support
     methods: "GET, PUT, PATCH, DELETE",
 }
 
 app.use(cors(corsOptions));
 app.use(cors({
-    origin: ['http://127.0.0.1:6968', 'http://localhost:6968'],
+    origin: ['http://127.0.0.1:8083', 'http://localhost:8083'],
     credentials: true
  }));
 // credentials will allow you to access the cookie on your fetch(url, 
